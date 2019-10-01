@@ -5,7 +5,7 @@ import React from 'react';
 // }
 
 const Greet = () => {
-    return <h1>Hello Vishwas</h1>
+    return <h1>Hello Clifford</h1>
 }
 
 export default Greet;
