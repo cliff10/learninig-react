@@ -1,11 +1,14 @@
 import React from 'react';
 
-// function Greet(){
-//     return <h1>Hello Vishwas</h1>
-// }
-
-const Greet = () => {
-    return <h1>Hello Clifford</h1>
+const Greet = (props) => {
+    console.log(props);
+    return (
+        <div>
+            <h1>Hello {props.firstName}, your family name is: {props.lastName} </h1> 
+            {props.children}
+        </div>
+      
+    )
 }
 
 export default Greet;
