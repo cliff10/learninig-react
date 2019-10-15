@@ -9,6 +9,7 @@ import Message from './components/Message';
 import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick'
 import ClassClick from './components/ClassClick';
+import EventBiding from './components/EventBiding';
 
 function App() {
   return (
@@ -29,9 +30,10 @@ function App() {
       {/* <Message /> */}
       {/* <Counter /> */}
       {/* <Greet firstName="Jefferson" lastName="Pierre"></Greet> */}
-    <Welcome  firstName="Jefferson" lastName="Pierre" />
-    <FunctionClick />
-    <ClassClick />
+    {/* <Welcome  firstName="Jefferson" lastName="Pierre" /> */}
+    {/* <FunctionClick /> */}
+    {/* <ClassClick /> */}
+    <EventBiding />
     </div>
   );
 } 
