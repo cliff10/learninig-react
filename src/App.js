@@ -7,6 +7,8 @@ import Hello from './components/Hello';
 import Greet from './components/Greet';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import FunctionClick from './components/FunctionClick'
+import ClassClick from './components/ClassClick';
 
 function App() {
   return (
@@ -27,7 +29,9 @@ function App() {
       {/* <Message /> */}
       {/* <Counter /> */}
       {/* <Greet firstName="Jefferson" lastName="Pierre"></Greet> */}
-    <Welcome  firstName="Jefferson" lastName="Pierre" /> 
+    <Welcome  firstName="Jefferson" lastName="Pierre" />
+    <FunctionClick />
+    <ClassClick />
     </div>
   );
 } 
