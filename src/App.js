@@ -10,6 +10,8 @@ import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick'
 import ClassClick from './components/ClassClick';
 import EventBiding from './components/EventBiding';
+import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
 
 function App() {
   return (
@@ -33,7 +35,9 @@ function App() {
     {/* <Welcome  firstName="Jefferson" lastName="Pierre" /> */}
     {/* <FunctionClick /> */}
     {/* <ClassClick /> */}
-    <EventBiding />
+    {/* <EventBiding /> */}
+    {/* <ParentComponent /> */}
+    <UserGreeting />
     </div>
   );
 } 

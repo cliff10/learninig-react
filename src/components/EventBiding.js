@@ -16,8 +16,8 @@ class EventBiding extends Component {
             message: 'Goodbye!'
         })
     }
-    
-    render() {
+       
+    render() { 
         return (
             <div>
                 <div>{this.state.message}</div>
