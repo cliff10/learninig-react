@@ -25,7 +25,8 @@ function App() {
       <Welcome  firstName="Jefferson" lastName="Pierre" />
       <Welcome firstName="Jefferson" lastName="Pierre" /> */}
       {/* <Message /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <Greet firstName="Jefferson" lastName="Pierre"></Greet>
     </div>
   );
 } 
