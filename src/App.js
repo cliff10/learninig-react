@@ -26,7 +26,8 @@ function App() {
       <Welcome firstName="Jefferson" lastName="Pierre" /> */}
       {/* <Message /> */}
       {/* <Counter /> */}
-      <Greet firstName="Jefferson" lastName="Pierre"></Greet>
+      {/* <Greet firstName="Jefferson" lastName="Pierre"></Greet> */}
+    <Welcome  firstName="Jefferson" lastName="Pierre" /> 
     </div>
   );
 } 
